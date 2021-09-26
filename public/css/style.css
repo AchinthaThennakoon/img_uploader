@@ -1,0 +1,74 @@
+h1{
+    font-size: 60px;
+    margin: 0;
+    color: black;
+}
+
+body{
+    background-color: #fefbe9;
+}
+
+#msg{
+    font-size: medium;
+}
+
+#container_1{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+
+
+
+#formFile{
+    font-size: 16px;
+    background: white;
+    border-radius: 0;
+    box-shadow: 5px  5px 10px black;
+    width: 350px;
+    outline: none;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background: rgb(30, 138, 30);
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 0 1px #6b4559;
+    outline: none;
+}
+
+#submit{
+    font-size: 16px;
+    background: #6495ED;
+    color: white;
+    border-radius: 0;
+    box-shadow: 5px  5px 10px black;
+    width: 100px;
+    outline: none;
+    padding: 10px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 24%;
+    float: left;
+    padding: 5px;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  img{
+      width: 100%;
+  }

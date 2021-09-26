@@ -1,0 +1,34 @@
+<div id="container_1">
+
+  <h1>Image Uploader</h1>
+  <small id="msg">Upload your images to ther server</small>
+</div>
+<div id="upload">
+  <form action="/uploadmultiple" enctype="multipart/form-data" method="POST">
+    <input type="file" name="images" id="formFile" multiple />
+    <input type="submit" value="upload" id="submit">
+  </form>
+</div>
+
+<section class="wrapper">
+
+
+  {{#each images}}
+  {{#each this}}
+  {{#if imageBase64}}
+
+    <div class="card">
+        <img src="data:{{contentType}};base64,{{imageBase64}}" alt="image">
+        <div class="container">
+            {{filename}}
+        </div>
+    </div>
+
+  {{/if}}
+  {{/each}}
+  {{/each}}
+
+
+</section>
+
+</div>
